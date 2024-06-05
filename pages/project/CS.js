@@ -13,8 +13,7 @@ import { ExternalLinkIcon } from '@chakra-ui/icons'
 import { Title, WorkImage, Meta } from '../../components/work'
 import P from '../../components/paragraph'
 import Layout from '../../components/layouts/article'
-import{ SectionX, SectionY } from '../../components/section'
-
+import { SectionX, SectionY } from '../../components/section'
 
 const Work = () => (
   <Layout title="Catboy Supremacy">
@@ -22,24 +21,24 @@ const Work = () => (
       <Title>Catboy Supremacy</Title>
       <WorkImage src="/images/CS.png" alt="CS" />
       <Heading
-          as="h3"
-          variant="section-title"
-          bgGradient="linear(to-l, #A020F0,#A020F0)"
-          bgClip="text"
-        >
-          About The Group
-        </Heading>
+        as="h3"
+        variant="section-title"
+        bgGradient="linear(to-l, #A020F0,#A020F0)"
+        bgClip="text"
+      >
+        About The Group
+      </Heading>
       <SectionX delay={0.1} amount="15">
-      <Text>
-      ♡ Welcome to Catboy Supremacy ♡ <br />
-        ──── ✧^♡^✧ ──── <br />
-        Catboy Supremacy is a Neko and LGBTQ friendly group where you can be
-        yourself with people that have similar interests for a unique community
-        experience.
-        <br />I am currently the Group Manager of Catboy Supremacy this is a
-        group based on catboys its a very wholesome group where all catboys and
-        non catboys are welcome
-      </Text>
+        <Text>
+          ♡ Welcome to Catboy Supremacy ♡ <br />
+          ──── ✧^♡^✧ ──── <br />
+          Catboy Supremacy is a Neko and LGBTQ friendly group where you can be
+          yourself with people that have similar interests for a unique
+          community experience.
+          <br />I was a Group Manager then Former Co-Owner of Catboy Supremacy
+          this is a group based on catboys its a very wholesome group where all
+          catboys and non catboys are welcome
+        </Text>
       </SectionX>
       <List ml={4} my={4}>
         <ListItem>
