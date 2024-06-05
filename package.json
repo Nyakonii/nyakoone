@@ -1,0 +1,38 @@
+{
+  "name": "nyakoone",
+  "version": "1.0.0",
+  "description": "The portfolio site for Nyako",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev -p 3002",
+    "build": "next build",
+    "start": "next start -p 3002",
+    "prettier": "prettier -write .",
+    "lint": "next lint"
+  },
+  "keywords": [],
+  "author": "Cadence(Nyako#0001)",
+  "license": "MIT",
+  "dependencies": {
+    "@chakra-ui/icons": "^1.1.7",
+    "@chakra-ui/react": "^1.8.8",
+    "@emotion/react": "^11.9.0",
+    "@emotion/styled": "^11.8.1",
+    "axios": "^0.27.2",
+    "dotenv": "^16.4.5",
+    "formik": "^2.2.9",
+    "framer-motion": "^6.3.3",
+    "next": "^12.1.6",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-icons": "^4.4.0",
+    "sharp": "^0.30.4",
+    "three": "^0.140.2",
+    "typewriter-effect": "^2.18.2"
+  },
+  "devDependencies": {
+    "eslint": "^8.15.0",
+    "eslint-config-next": "^12.1.6",
+    "prettier": "^2.6.2"
+  }
+}
